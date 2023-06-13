@@ -1,0 +1,101 @@
+ *{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+  }
+   
+  body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 20px;
+    background: #FFFDD0;
+  }
+  
+  /* Header/Blog Title */
+  .header {
+    font-family:'Dancing Script', cursive;
+    color: white;
+    padding: 150px;
+    font-size: 40px;
+    text-align: center;
+    background-position: top;
+    font-family: 'Courier New', Courier, monospace;
+    background-image: url(https://nomadicweekends.com/blog/wp-content/uploads/2019/01/23846859820_c9f6265dc8_b.jpg);
+    
+    
+  }
+
+.style {
+  padding: 50px;
+  font-size:60px ;
+  text-align: center;
+  font-family: 'Kablammo', cursive;
+  color:#617A55;
+}
+
+
+ .trending{
+    display: grid;
+     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 2rem;
+    margin-bottom: 10px;
+  }
+  .trending div img{
+    display: grid;
+    place-items: center;
+    width: 96%;
+    border-radius: 10px;
+    object-fit: contain;
+  }
+  .trending h3{
+    font-weight: 600;
+    margin-top: 10px;
+    color: #617A55;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+  }
+
+  .bengal{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 30px;
+    margin-bottom: 30px;
+  }
+  .bengal div img{
+width: 95%;
+border-radius: 10px;
+  }
+  .bengal div img {
+    position: relative;
+    text-align: center;
+  }
+  .bengal h4{
+    font-weight: 500;
+    font-style: italic;
+    margin-top: 10px;
+    color: #394867;
+    font-size: 60px;
+    text-align: center;
+  }
+  .things{
+    text-align: center;
+    font-style: oblique;
+    font-size:70px ;
+    color: #321E1E;
+    padding: 60px;
+  }
+  /*Footer */
+
+  .footer {
+    width: 100;
+    min-height: 100px;
+    padding: 20px 80px;
+    margin: 0;
+    background-color:#617A55;
+    text-align: center;
+  }
+
+  .footer p {
+    color: burlywood;
+    margin: 20px auto;
+  }
+   
